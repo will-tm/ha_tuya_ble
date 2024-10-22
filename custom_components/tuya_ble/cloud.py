@@ -7,17 +7,17 @@ from dataclasses import dataclass
 import json
 from typing import Any, Iterable
 
-from homeassistant.const import CONF_ADDRESS, CONF_DEVICE_ID
-from homeassistant.core import HomeAssistant
-from homeassistant.components.tuya.const import (
-    CONF_ACCESS_ID,
-    CONF_ACCESS_SECRET,
-    CONF_APP_TYPE,
-    CONF_AUTH_TYPE,
+from homeassistant.const import (
+    CONF_ADDRESS,
     CONF_COUNTRY_CODE,
-    CONF_ENDPOINT,
+    CONF_DEVICE_ID,
     CONF_PASSWORD,
     CONF_USERNAME,
+)
+from homeassistant.core import HomeAssistant
+from homeassistant.components.tuya.const import (
+    CONF_APP_TYPE,
+    CONF_ENDPOINT,
     DOMAIN as TUYA_DOMAIN,
     TUYA_RESPONSE_RESULT,
     TUYA_RESPONSE_SUCCESS,
@@ -42,17 +42,21 @@ from .tuya_ble import (
 )
 
 from .const import (
+    CONF_PRODUCT_NAME,
     CONF_PRODUCT_MODEL,
+    CONF_PRODUCT_ID,
     CONF_UUID,
     CONF_LOCAL_KEY,
     CONF_CATEGORY,
-    CONF_PRODUCT_ID,
     CONF_DEVICE_NAME,
-    CONF_PRODUCT_NAME,
     DOMAIN,
     TUYA_API_DEVICES_URL,
     TUYA_API_FACTORY_INFO_URL,
     TUYA_FACTORY_INFO_MAC,
+    CONF_ACCESS_ID,
+    CONF_ACCESS_SECRET,
+    CONF_AUTH_TYPE,
+    SMARTLIFE_APP,
 )
 
 _LOGGER = logging.getLogger(__name__)

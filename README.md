@@ -6,6 +6,8 @@ This integration supports Tuya devices connected via BLE.
 
 _Inspired by code of [@redphx](https://github.com/redphx/poc-tuya-ble-fingerbot)_
 
+_Fork of code from [@PlusPlus-ua](https://github.com/PlusPlus-ua/ha_tuya_ble)_
+
 ## Installation
 
 Place the `custom_components` folder in your configuration directory (or add its contents to an existing `custom_components` folder). Alternatively install via [HACS](https://hacs.xyz/).
@@ -49,6 +51,7 @@ The integration works locally, but connection to Tuya BLE device requires device
   + Irrigation computer (product_id '6pahkcau')
 
 ## Support project
+_From the original developer [@PlusPlus-ua](https://github.com/PlusPlus-ua)_
 
 I am working on this integration in Ukraine. Our country was subjected to brutal aggression by Russia. The war still continues. The capital of Ukraine - Kyiv, where I live, and many other cities and villages are constantly under threat of rocket attacks. Our air defense forces are doing wonders, but they also need support. So if you want to help the development of this integration, donate some money and I will spend it to support our air defense.
 <br><br>
